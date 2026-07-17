@@ -1,11 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>rock-paper-scissor</title>
-</head>
-<body>
-    <script src="index.js"></script>
-</body>
+    <style>
+      #main-section {
+        background-color: yellowgreen;
+        height: 220px;
+        width: 400px;
+        
+      }
+      h1 {
+        text-align: center;
+      }
+      p {
+        display: inline-block;
+        align-content: space-evenly;
+        margin-left: 50px;
+      }
+
+      #message {
+        text-align: center;
+      }
+
+      .btn1 {
+        align-content: space-evenly;
+      }
+      .btn2 {
+        align-content: space-evenly;
+      }
+      .btn3 {
+        align-content: space-evenly;
+      }
+      .btn-container {
+        margin-left: 75px;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <section id="main-section">
+      <h1>rock-paper-scissors</h1>
+      <p>Computer score:<span id="computerScore">0</span></p>
+      <p>Human score: <span id="humanScore">0</span></p>
+      <p id="message">pick form the option below</p>
+      <br />
+      <div class="btn-container">
+        <button class="rock">Rock</button>
+        <button class="paper">Paper</button>
+        <button class="scissorss">Scissors</button>
+      </div>
+    </section>
+    <script src="index.js" defer></script>
+  </body>
 </html>
